@@ -30,6 +30,7 @@ function get_node_path() {
     NODE_PATH=$(which node)
     if [ -z $NODE_PATH ]; then
         echo "[techcheck] ⛔️ ERROR: No node.js found on this system!"
+        echo "               Go to https://nodejs.org and follow installation instructions"
         exit 1 # error
     fi
     log "[node_version] ℹ️ Node path found: $NODE_PATH"
