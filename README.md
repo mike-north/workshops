@@ -17,4 +17,8 @@
 This is a collection of utilities that <a title="Mike.Works" href="https://mike.works">Mike.Works</a> uses for <a href='https://mike.works/courses'>our many workshops</a>.
 </p>
 
+## The Tools
+
+* **[TechCheck](./packages/techcheck/)** is our utility for interactively guiding students through the process of installing and verifing that each project's dependencies are correctly installed.
+
 &copy; 2018 [Mike.Works](https://mike.works), All Rights Reserved
