@@ -1,10 +1,10 @@
 {
+  "extends": "tslint-config-airbnb",
   "rules": {
-      "class-name": true,
-      "no-var-keyword": true,
-      "no-internal-module": true,
-      "no-trailing-whitespace": true,
-      "no-null-keyword": true,
-      "jsdoc-format": true
+    "trailing-comma": false,
+    "prefer-const": false,
+    "no-increment-decrement": false,
+    "ter-arrow-parens": false,
+    "max-line-length": false
   }
 }

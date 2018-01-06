@@ -4,6 +4,7 @@
         "target": "es5",
         "experimentalDecorators": true,
         "noUnusedParameters": true,
+        "strict": true,
         "declaration": true,
         "lib": [
             "esnext"

@@ -1,12 +1,13 @@
 {
 	"private": true,
 	"scripts": {
-		"test" : "scripty"
+		"test": "scripty"
 	},
 	"devDependencies": {
 		"lerna": "^2.5.1",
 		"scripty": "^1.7.2",
 		"tslint": "^5.8.0",
+		"tslint-config-airbnb": "^5.4.2",
 		"typescript": "^2.6.2"
 	}
 }

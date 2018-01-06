@@ -1,7 +1,7 @@
 {
-  "name": "@workshops/core",
+  "name": "@workshops/techcheck",
   "version": "0.0.0",
-  "description": "Core dependencies for Mike.Works workshop utilities",
+  "description": "Project Setup & Dependency Verification Tools",
   "main": "dist/index.js",
   "scripts": {
     "build": "scripty",
@@ -12,6 +12,9 @@
     "watch:node": "scripty",
     "test": "scripty",
     "test:watch": "scripty"
+  },
+  "bin": {
+    "techcheck": "./bin/techcheck"
   },
   "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "license": "BSD-3-Clause",
@@ -31,6 +34,7 @@
     "scripty": "^1.7.2",
     "source-map-support": "^0.5.0",
     "ts-node": "^4.1.0",
+    "tslint-config-airbnb": "^5.4.2",
     "typescript": "^2.6.2"
   }
 }

@@ -1,1 +1,1 @@
-export { Deferred } from './deferred';
+export { Deferred, DeferredLike } from './deferred';
