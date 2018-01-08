@@ -34,6 +34,6 @@ FOR /F "tokens=* USEBACKQ" %%F IN (`"%NODE_PATH%" --version`) DO (
 )
 
 call :log "[node_version] ℹ️ Node path found: %NODE_VERSION%"
-powershell -Command "(New-Object Net.WebClient).DownloadFile('curl -o- https://raw.githubusercontent.com/mike-works/workshops/master/packages/techcheck/dist/index.js?v=%RANDOM%%RANDOM%', 'techcheck.js')"
+powershell -Command "(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/mike-works/workshops/master/packages/techcheck/dist/index.js?v=%RANDOM%%RANDOM%', 'techcheck.js')"
 %NODE_PATH% techcheck.js
 EXIT /B 0
